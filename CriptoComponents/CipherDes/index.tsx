@@ -18,7 +18,8 @@ export function DES({text}: Props){
 
     return (
         <Text style={styles.text}>
-            {textAscii}
+            Texto Criptografado: {cipher}{'\n'}
+            Texto Decriptografado: {textAscii}
         </Text>
     );
 }
